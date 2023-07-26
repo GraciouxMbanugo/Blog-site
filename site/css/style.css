@@ -1940,7 +1940,7 @@ hr {
 	color: #fff;
 }
 
-.bg-image, .bg-subscribe, .bg-about, .bg-services, .bg-client, .bg-blog, .bg-typography, .bg-extra {
+.bg-image, .bg-subscribe, .bg-about, .bg-contact, .bg-client, .bg-blog, .bg-typography, .bg-extra {
 	background-size: cover;
 	background-position: center center;
 }
@@ -1957,8 +1957,8 @@ hr {
 	background-image: url(../images/about-1.jpg);
 }
 
-.bg-services {
-	background-image: url(../images/IKEABIA img.jpeg);
+.bg-contact {
+	background-image: url(../images/Abia_state_tower.jpg);
 }
 
 .bg-client {
