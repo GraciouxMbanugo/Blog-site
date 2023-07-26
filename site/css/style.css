@@ -99,6 +99,8 @@ html p a:hover {
 	position: absolute; top: 12px; left: 20px;
 }
 
+
+
 @media (min-width: 480px) {
 	.text-xs-left {
 		text-align: left;
@@ -3254,31 +3256,31 @@ blockquote {
 }
 
 .btn-primary:hover {
-	background-color: red;
-	border-color: red;
+	background-color:#82c434;
+	border-color: #82c434;
 }
 
-.btn-white {
+.btn-white { 
 	background-color: transparent;
-	color: #fff;
-	border-color: #fff;
+	color:#fff;
+	border-color:#fff;
 }
 
 .btn-white:hover {
 	color: #fff;
-	background-color: red;
-	border-color: red;
+	background-color: #82c434;
+	border-color: #82c434;
 }
 
 .btn-success {
 	color: #fff;
-	background-color: red;
-	border-color: red;
+	background-color: #82c434;
+	border-color: #82c434;
 }
 
 .btn-success:focus {
-	background-color: red;
-	border-color: red;
+	background-color: #82c434;
+	border-color: #82c434;
 }
 
 .btn-success:hover {
@@ -3287,20 +3289,20 @@ blockquote {
 }
 
 .btn-success-mod-1 {
-	color: red;
+	color: #82c434;
 	background-color: transparent;
-	border-color: red;
+	border-color:#82c434;
 }
 
 .btn-success-mod-1:focus {
 	background-color: transparent;
-	border-color: red;
-	color: red;
+	border-color: #82c434;
+	color: #82c434;
 }
 
 .btn-success-mod-1:hover {
-	background-color: red;
-	border-color: red;
+	background-color: #82c434;
+	border-color: #82c434;
 	color: #fff;
 }
 
@@ -10469,14 +10471,14 @@ a.fa-shopping-cart,
 	}
 }
 
-/**
- * @subsection   Swiper 3.1.7
+*
+ /* * @subsection   Swiper 3.1.7
  * @description  Most modern mobile touch slider and framework with
  *               hardware accelerated transitions
  * @author       Vladimir Kharlampidi
  * @see          http://www.idangero.us/swiper/
- * @licesne      MIT License
- */
+ * @licesne      MIT License */
+
 .swiper-container {
 	margin: 0 auto;
 	position: relative;
@@ -10506,16 +10508,19 @@ a.fa-shopping-cart,
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
-	display: flex;
+	display:flex;
 	-webkit-transition-property: -webkit-transform;
 	-moz-transition-property: -moz-transform;
 	-o-transition-property: -o-transform;
 	-ms-transition-property: -ms-transform;
 	transition-property: transform;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
+	/* -webkit-box-sizing: content-box; */
+	/* -moz-box-sizing: content-box; */
+	/* box-sizing: content-box; */
+	
+	  
 }
+
 
 .swiper-container-android .swiper-slide,
 .swiper-wrapper {
@@ -10524,6 +10529,7 @@ a.fa-shopping-cart,
 	-o-transform: translate(0px, 0px);
 	-ms-transform: translate3d(0px, 0, 0);
 	transform: translate3d(0px, 0, 0);
+	
 }
 
 .swiper-container-multirow > .swiper-wrapper {
@@ -10551,6 +10557,7 @@ a.fa-shopping-cart,
 	height: 100%;
 	position: relative;
 }
+
 
 .swiper-slide.rd-parallax .rd-parallax-layer[data-type="media"] {
 	opacity: 1;
